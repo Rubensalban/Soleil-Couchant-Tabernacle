@@ -14,7 +14,7 @@ class FavoriteScreen extends StatelessWidget {
         width: double.infinity,
         margin: EdgeInsets.only(bottom: kRegularHeight),
         decoration: BoxDecoration(
-          color: kRedColor,
+          color: kWhiteColor,
           borderRadius: BorderRadius.circular(kCornerRadius),
         ),
       ),

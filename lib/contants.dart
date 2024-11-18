@@ -6,7 +6,7 @@ import 'size_config.dart';
 const Color kPrimaryColor = Color(0xF5710204);
 const Color kGreySecondaryColor = Color(0xFF999999);
 const Color kGreyPrimaryColor = Color(0xFF777777);
-const Color kScaffoldColor = Color(0xFFFFFFFF);
+const Color kScaffoldColor = Color(0xFFEDEDED);
 const Color kWhiteColor = Color(0xFFFFFFFF);
 const Color kBlackColor = Color(0xFF000000);
 const Color kRedColor = Color(0xFFFF0000);
@@ -22,6 +22,7 @@ const String kHeaderSlide1 = 'assets/imgs/img5.jpg';
 const String kHeaderSlide2 = 'assets/imgs/img6.jpg';
 const String kHeaderSlide3 = 'assets/imgs/img4.jpg';
 const String kHeaderSlide4 = 'assets/imgs/img2.jpg';
+const String kImgPlayer = 'assets/imgs/img7.png';
 
 // ICONS
 const String kIconHome = 'assets/icons/icon_home.svg';
