@@ -117,10 +117,7 @@ class OnboardingScreen extends StatelessWidget {
                           if (currentIndex.value < 3) {
                             _next();
                           } else {
-                            Navigator.pushNamed(
-                              context,
-                              StartedScreen.routeName,
-                            );
+                            Get.offAllNamed(StartedScreen.routeName);
                           }
                         }).build(),
                       ],
