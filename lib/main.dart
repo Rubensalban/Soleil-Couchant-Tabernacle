@@ -6,6 +6,7 @@ import 'package:flutter_localizations/flutter_localizations.dart';
 
 import 'contants.dart';
 import 'routes.dart';
+import 'screens/onboarding/onboarding_screen.dart';
 import 'screens/started/started_screen.dart';
 import 'theme.dart';
 
@@ -34,7 +35,7 @@ class App extends StatelessWidget {
       title: kAppName,
       theme: theme(context),
       routes: routes,
-      home: const StartedScreen(),
+      home: const OnboardingScreen(),
     );
   }
 }

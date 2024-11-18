@@ -33,7 +33,7 @@ class CustomButton {
         textColor = kWhiteColor;
         break;
       case ButtonType.secondary:
-        backgroundColor = Colors.transparent;
+        backgroundColor = kWhiteColor;
         textColor = kPrimaryColor;
         break;
       default:
